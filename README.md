@@ -1,5 +1,5 @@
 # MISD
-This is a PyTorch implementation for our paper: [Efficient Hierarchical Reinforcement Learning via Mutual Information Constrained Subgoal Discovery].
+This is a PyTorch implementation for our paper: "Efficient Hierarchical Reinforcement Learning via Mutual Information Constrained Subgoal Discovery".
 
 Our code is based on official implementation of [HIGL](https://github.com/junsu-kim97/HIGL) (NeurIPS 2021).
 ## Installation
@@ -21,8 +21,8 @@ Also, to run the MuJoCo experiments, a license is required (see [here](https://w
 
 - Point Maze (U-shape)
 ```
-./scripts/misd_point_maze.sh ${timesteps} ${gpu} ${seed}
-./scripts/misd_point_maze.sh 2e6 0 0
+./scripts/misd_point_maze_u.sh ${timesteps} ${gpu} ${seed}
+./scripts/misd_point_maze_u.sh 2e6 0 0
 ```
 
 - Ant Maze (U-shape)
