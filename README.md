@@ -2,12 +2,13 @@
 This is a PyTorch implementation for our paper: "Efficient Hierarchical Reinforcement Learning via Mutual Information Constrained Subgoal Discovery".
 
 Our code is based on official implementation of [HIGL](https://github.com/junsu-kim97/HIGL) (NeurIPS 2021).
-## Installation
-```
-conda create -n misd python=3.6
-conda activate misd
-pip install -r requirements.txt
-```
+## Dependencies
+
+- Python 3.6
+- PyTorch 1.8
+- OpenAI Gym
+- MuJoCo
+
 
 Also, to run the MuJoCo experiments, a license is required (see [here](https://www.roboti.us/license.html)).
 
