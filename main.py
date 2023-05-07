@@ -6,7 +6,7 @@ from misd.train import run_misd
 parser = argparse.ArgumentParser()
 
 # Environment
-parser.add_argument("--env_name", default='AntTwoRooms-v2', type=str)
+parser.add_argument("--env_name", default='AntMaze-v1', type=str)
 parser.add_argument("--reward_shaping", type=str, default="dense", choices=["dense", "sparse"])
 parser.add_argument("--stochastic_xy", action="store_true")
 parser.add_argument("--stochastic_sigma", default=0., type=float)
