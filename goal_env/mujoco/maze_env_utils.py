@@ -110,20 +110,6 @@ def construct_maze(maze_id='Maze'):
             [1, O, O, O, O, O, O, O, O, 1],
             [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
         ]
-    elif maze_id == 'MazeS':
-        O = 'r'
-        structure = [
-            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
-            [1, O, O, O, O, O, O, O, O, 1],
-            [1, O, O, O, O, O, O, O, O, 1],
-            [1, 1, 1, 1, 1, 1, 1, O, O, 1],
-            [1, O, O, O, O, O, O, O, O, 1],
-            [1, O, O, O, O, O, O, O, O, 1],
-            [1, O, O, 1, 1, 1, 1, 1, 1, 1],
-            [1, O, O, O, O, O, O, O, 0, 1],
-            [1, O, O, O, O, O, O, O, 0, 1],
-            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
-        ]
     elif maze_id == 'MazeB':
         O = 'r'
         structure = [
