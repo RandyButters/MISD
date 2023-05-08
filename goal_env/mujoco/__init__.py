@@ -2,7 +2,7 @@ from gym.envs.registration import register
 import gym
 
 robots = ['Point', 'Ant']
-task_types = ['Maze', 'Maze1', 'MazeL', 'Push', 'Fall', 'Block', 'BlockMaze', 'MazeW', 'MazeS', 'MazeB', 'FourRooms', 'TwoRooms']
+task_types = ['Maze', 'Maze1', 'MazeL', 'Push', 'Fall', 'Block', 'BlockMaze', 'MazeW', 'MazeS', 'FourRooms', 'TwoRooms']
 all_name = [x + y for x in robots for y in task_types]
 for name_t in all_name:
     for Test in ['', 'Test']:
