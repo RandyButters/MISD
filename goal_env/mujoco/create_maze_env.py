@@ -109,8 +109,6 @@ def create_maze_env(env_name=None, top_down_view=False, maze_size_scaling=8, ran
         maze_id = 'MazeW'
     elif env_name == 'MazeS':
         maze_id = 'MazeS'
-    elif env_name == 'MazeB':
-        maze_id = 'MazeB'
     elif env_name == 'FourRooms':
         maze_id = 'FourRooms'
     elif env_name == 'TwoRooms':
