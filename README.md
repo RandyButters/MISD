@@ -15,31 +15,31 @@ Also, to run the MuJoCo experiments, a license is required (see [here](https://w
 - Spiral
 ```
 ./scripts/misd_spiral_maze.sh ${timesteps} ${gpu} ${seed}
-./scripts/misd_spiral_maze.sh 2e6 0 0
+./scripts/misd_spiral_maze.sh 2e6 0 2
 ```
 
 - Point Maze (U-shape)
 ```
 ./scripts/misd_point_maze_u.sh ${timesteps} ${gpu} ${seed}
-./scripts/misd_point_maze_u.sh 2e6 0 0
+./scripts/misd_point_maze_u.sh 2e6 0 2
 ```
 
 - Ant Maze (U-shape)
 ```
 ./scripts/misd_ant_maze_u.sh ${timesteps} ${gpu} ${seed}
-./scripts/misd_ant_maze_u.sh 2e6 0 0
+./scripts/misd_ant_maze_u.sh 2e6 0 2
 ```
 
 - Ant Maze (S-shape)
 ```
 ./scripts/misd_ant_maze_s.sh ${timesteps} ${gpu} ${seed}
-./scripts/misd_ant_maze_s.sh 2e6 0 0
+./scripts/misd_ant_maze_s.sh 2e6 0 2
 ```
 
 - Ant TwoRooms
 ```
 ./scripts/misd_ant_two_rooms.sh ${timesteps} ${gpu} ${seed}
-./scripts/misd_ant_two_rooms.sh 2e6 0 0
+./scripts/misd_ant_two_rooms.sh 2e6 0 2
 ```
 
 
